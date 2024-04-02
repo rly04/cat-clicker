@@ -1,0 +1,40 @@
+#clicker {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border: transparent;
+}
+
+#clicker:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+* {
+  background-color: beige;
+  font-family: cursive;
+}
+
+button {
+  display: flex;
+  margin: 5px;
+  font-size: large;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: transparent;
+}
+
+h1 {
+  text-align: center;
+}
+
+#reset {
+  background-color: red;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: grey;
+}
